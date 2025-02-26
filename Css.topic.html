@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1h, initial-scale=1.0">
+    <title>Document</title>
+
+    <style> 
+        h2 { 
+            color: darkred;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        u1 {
+            color: blue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+
+        h2.tengah{
+            text-align: center;
+        }
+
+        .bg-darks { 
+            background-color: darkred;
+        }
+
+        .text-White{ 
+            color: white;
+        }
+
+        #content{
+            background-color: darkgrey;
+            margin: 5px 10px 10px 5px;
+            padding: 5px;
+
+        }
+
+     .container .box p{
+
+        background-color: wheat;
+     }
+        
+        .touppercase{
+            text-transform: uppercase;
+            text-decoration: underline;
+        
+        }
+
+        .potong {
+            text-decoration: line-through;
+        }
+
+        input[ type="text"], [type="email"] {
+            width: 15%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"]  {
+            background-color:rgba(72, 255, 0, 0.308);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: black;
+        }
+
+        p::first-letter {
+            font-size: 2em;
+            color: blue;
+        }
+
+        
+    </style>
+   <!--Externel css-->
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+    
+    <div id="content">                      
+    <h1> Welcome to JTMK</h1>
+    <h2 class="bg-darks text-White"> Selamat Jatang ke JTMK</h2>
+    <h2 class="tengah"> Hello</h2>
+    
+    <input type="text" placeholder="Please enter your name" id="name">
+    <input type="email" id="email" placeholder="Enter your email">
+
+    <p style="color: blue; font-size: 20px ;"> Track Offered</p>
+  <p class="touppercase"> Plese select your track</p>
+    <p>Please Select Your Track </p>
+    <u1> 
+        <li class="potong"> Software and Developer</li>
+        <li> Networking System Track</li>
+        <li class="potong"> Data Visualization Track </li>
+    </u1>
+
+   
+    <button type="submit"> Apply Here !</button>
+   
+</div>
+
+    <footer> 
+   Copyright 2025
+    </footer>
+    <div id="container"class="box">
+        <p class="bg-darks text-White"> Politeknik Seberang perai</p>
+    </div>
+</body>
+</html>
