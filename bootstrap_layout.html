@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Exercise</title>
+    <link href="asset/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container bg-light p-3 my-3">
+        <p>This is a fixed container.</p>
+    </div>
+    <div class="container-fluid bg-primary text-white p-3">
+        <p>This is a full-width fluid container.</p>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 bg-secondary text-white p-3">Column 1</div>
+            <div class="col-6 bg-dark text-white p-3">Column 2</div>
+        </div>
+    </div>
+
+
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 bg-success text-white p-3">Responsive Column 1</div>
+            <div class="col-sm-12 col-md-4 bg-warning text-dark p-3">Responsive Column 2</div>
+            <div class="col-sm-12 col-md-4 bg-danger text-white p-3">Responsive Column 3</div>
+        </div>
+    </div>
+
+
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 bg-info text-white p-3 text-center">Centered Column</div>
+        </div>
+    </div>
+
+
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-md-6 bg-light p-3">
+                <p>Main Column</p>
+                <div class="row">
+                    <div class="col-md-6 bg-secondary text-white p-3">Nested Column 1</div>
+                    <div class="col-md-6 bg-dark text-white p-3">Nested Column 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-12 bg-primary text-white p-3 text-center">Header</div>
+        </div>
+        <div class="row">
+            <div class="col-12 bg-secondary text-white p-3 text-center">Navigation</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 bg-light p-3">Main Content</div>
+            <div class="col-md-4 bg-dark text-white p-3">Sidebar</div>
+        </div>
+        <div class="row">
+            <div class="col-12 bg-primary text-white p-3 text-center">Footer</div>
+        </div>
+    </div>
+</body>
+</html>
